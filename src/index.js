@@ -1,7 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import * as firebase from "firebase/app"
+import firebase from "firebase/app"
 import "firebase/analytics"
+import "firebase/auth"
+
 import "./index.css"
 import { App, serviceWorker } from "./app"
 
